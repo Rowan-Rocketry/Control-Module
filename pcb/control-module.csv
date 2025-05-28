@@ -1,32 +1,31 @@
-﻿Reference,Value,Footprint,Datasheet,Qty,Purchase,DNP,Exclude from BOM,Exclude from Board
-BT1,LiPo Connector,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,~,1,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611,,,
-"C1,C2",10.0uF,Capacitor_SMD:C_0402_1005Metric,~,2,https://www.digikey.com/en/products/detail/vishay-sprague/298D106X0004K2T/1973823,,,
-"C3,C7",2.20uF,Capacitor_SMD:C_0402_1005Metric,~,2,https://www.digikey.com/en/products/detail/vishay-sprague/298D225X0010K2T/1973825,,,
-"C4,C14,C19,C21",100.0nF,Capacitor_SMD:C_0603_1608Metric,"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf,~",4,https://www.digikey.com/en/products/detail/kemet/C0603C104M5RACTU/2199782,,,
-"C5,C6,C9,C10,C11,C12,C13",100.0nF,Capacitor_SMD:C_0402_1005Metric,~,7,https://www.digikey.com/en/products/detail/kemet/C0402C104M4RACTU/2196240,,,
-C8,1.0uF,Capacitor_SMD:C_0402_1005Metric,~,1,https://www.digikey.com/en/products/detail/kemet/C0402C105K4PACTU/5423012,,,
-C15,10.0u,Capacitor_SMD:C_0603_1608Metric,~,1,https://www.digikey.com/en/products/detail/vishay-sprague/298D106X06R3M2T/1559512,,,
-"C16,C18",1.0uF,Capacitor_SMD:C_0603_1608Metric,~,2,https://www.digikey.com/en/products/detail/kemet/C0603C105K4RACTU/2199788,,,
-C17,0.010uF,Capacitor_SMD:C_0603_1608Metric,~,1,https://www.digikey.com/en/products/detail/kemet/C0603C103K5RACTU/411090,,,
-C20,10.0uF,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,https://content.kemet.com/datasheets/KEM_T2005_T491.pdf,1,https://www.digikey.com/en/products/detail/kemet/T491A106K010AT/818545,,,
-"D1,D3",LED,LED_SMD:LED_0603_1608Metric,~,2,https://www.digikey.com/en/products/detail/liteon/LTST-C190GKT/269230,,,
-D2,VS5V0UA1LAMTR,Diode_SMD:D_SOD-128,https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/vs5v0ua1lamtr-e.pdf,1,https://www.digikey.com/en/products/detail/rohm-semiconductor/VS5V0UA1LAMTR/7902291?s=N4IgTCBcDaIGoGUCscAMBVAggRgDKYFkAVAJRAF0BfIA,,,
-"FID1,FID2,FID3",Fiducial,Fiducial:Fiducial_1mm_Mask3mm,~,3,,,Excluded from BOM,
-"H1,H2,H3,H4",MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_Pad_Via,~,4,,,Excluded from BOM,
-J1,USB_C_Receptacle_USB2.0_16P,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,1,https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441,,,
-J2,Micro_SD_Card,Connector_Card:microSD_HC_Molex_47219-2001,https://www.we-online.com/components/products/datasheet/693072010801.pdf,1,https://www.digikey.com/en/products/detail/molex/0472192001/3044807?s=N4IgTCBcDaICwHYwEYCcBaMAGLyQF0BfIA,,,
-JP1,SolderJumper_2_Bridged,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~,1,,,Excluded from BOM,
-L1,2.20uH,Inductor_SMD:L_0402_1005Metric,~,1,https://www.digikey.com/en/products/detail/tdk-corporation/MLZ1005M2R2WT000/2465140,,,
-"R1,R6",1.0k,Resistor_SMD:R_0603_1608Metric,~,2,https://www.digikey.com/en/products/detail/yageo/RC0603JR-071KL/726677,,,
-"R2,R3",5.10k,Resistor_SMD:R_0603_1608Metric,~,2,https://www.digikey.com/en/products/detail/yageo/RC0603JR-075K1L/726796,,,
-"R4,R5",10.0k,Resistor_SMD:R_0603_1608Metric,~,2,https://www.digikey.com/en/products/detail/yageo/RC0603JR-0710KL/726700,,,
-SW1,SW_DPST,Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin,~,1,https://www.digikey.com/en/products/detail/nidec-components-corporation/CHS-02TA/948316,,,
-"TP1,TP2,TP3,TP4",TestPoint,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,~,4,https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326,,,
-U1,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,1,https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559,,,
-U2,STM32U545RETxQ,Package_QFP:LQFP-64_10x10mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32u545re.pdf,1,https://www.digikey.com/en/products/detail/stmicroelectronics/STM32U545RET6Q/20412792?s=N4IgjCBcoLQExVAYygFwE4FcCmAaEA9lANogCcI%2BArCALoC%2B9%2BCkpAzqgLYDMcmVAFirpsdekA,,,
-U3,TC2185-3.3VxCTTR,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/21662F.pdf,1,https://www.digikey.com/en/products/detail/microchip-technology/TC2185-3-3VCTTR/443217,,,
-U4,MS5607-02BA,Package_LGA:LGA-8_3x5mm_P1.25mm,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035,1,https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/MS560702BA03-50/4700931,,,
-U5,LSM6DSL,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,https://www.st.com/resource/en/datasheet/lsm6dsl.pdf,1,https://www.digikey.com/en/products/detail/stmicroelectronics/LSM6DSLTR/6192804,,,
-,,,,,,,,
-,,,,,,,,
-
+"Reference","Value","Footprint","Datasheet","Qty","MPN","DNP","Exclude from BOM","Exclude from Board"
+"C1,C3","1uF","Capacitor_SMD:C_0603_1608Metric","~","2","","","",""
+"C2","0.01uF","Capacitor_SMD:C_0603_1608Metric","~","1","","","",""
+"C4,C5,C18","10uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","3","","","",""
+"C6,C9","2.2uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","2","","","",""
+"C7,C8,C11,C12,C13,C14,C15,C17,C19","100nF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf,~","9","","","",""
+"C10","1uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1","","","",""
+"C16","10u","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1","","","",""
+"D1,D2","LED","LED_SMD:LED_0603_1608Metric","~","2","","","",""
+"D3","VS5V0UA1LAMTR","Diode_SMD:D_SOD-128","https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/vs5v0ua1lamtr-e.pdf","1","","","",""
+"D4","B350A-13-F","Diode_SMD:D_SOD-123F","~","1","","","",""
+"H1,H2,H3,H4","MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_Via","~","4","","","Excluded from BOM",""
+"J1","Screw_Terminal_01x06","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal","~","1","","","",""
+"J2","Conn_01x07_Pin","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical","~","1","","","",""
+"J3","USB_C_Receptacle_USB2.0_16P","Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","1","","","",""
+"J4","Micro_SD_Card","Connector_Card:microSD_HC_Molex_47219-2001","https://www.we-online.com/components/products/datasheet/693072010801.pdf","1","","","",""
+"J5","Screw_Terminal_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal","~","1","","","",""
+"JP1,JP2","SolderJumper_2_Open","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","~","2","","","Excluded from BOM",""
+"L1","2.2uH","Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~","1","","","",""
+"Q1,Q2,Q3","SiS454DN","Package_SO:Vishay_PowerPAK_1212-8_Single","https://www.vishay.com/docs/66707/sis454dn.pdf","3","","","",""
+"R1,R2,R3","1k","Resistor_SMD:R_0603_1608Metric","~","3","","","",""
+"R7,R8","5.1k","Resistor_SMD:R_0603_1608Metric","~","2","","","",""
+"R9,R13,R17","3.3k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","3","","","",""
+"R10,R11,R12,R14,R15,R16,R18,R19,R20","1k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","9","","","",""
+"RN1,RN2","10k","Resistor_SMD:R_Array_Convex_4x0612","https://www.vishay.com/docs/28751/acasprec.pdf","2","","","",""
+"SW1","SW_DIP_x04","Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin","~","1","","","",""
+"U1","TC2185-3.3VxCTTR","Package_TO_SOT_SMD:SOT-23-5","http://ww1.microchip.com/downloads/en/DeviceDoc/21662F.pdf","1","","","",""
+"U2","USBLC6-2SC6","Package_TO_SOT_SMD:SOT-23-6","https://www.st.com/resource/en/datasheet/usblc6-2.pdf","1","","","",""
+"U3","STM32U545RETxQ","Package_QFP:LQFP-64_10x10mm_P0.5mm","https://www.st.com/resource/en/datasheet/stm32u545re.pdf","1","","","",""
+"U4","MS5607-02BA","Package_LGA:LGA-8_3x5mm_P1.25mm","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035","1","","","",""
+"U5","LSM6DSL","Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y","https://www.st.com/resource/en/datasheet/lsm6dsl.pdf","1","","","",""

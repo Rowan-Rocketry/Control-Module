@@ -499,7 +499,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../fab/rev-1/gerbers/",
+      "plot": "../fab/rev 1/gerbers/",
       "pos_files": "../fab/rev-1/",
       "specctra_dsn": "",
       "step": "control-module.step",
@@ -571,13 +571,25 @@
           "group_by": false,
           "label": "Purchase",
           "name": "Purchase",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         },
         {
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         },
         {
           "group_by": true,

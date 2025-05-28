@@ -1183,6 +1183,14 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a3fbb7f3-9bec-41e2-9000-cc655938ad65")
 		)
@@ -1264,6 +1272,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
